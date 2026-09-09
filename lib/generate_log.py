@@ -16,7 +16,7 @@ def generate_log(data):
             file.write(f"{entry}\n")
 
     # STEP 4: Print a confirmation message with the filename
-    print(f"Done — check {filename} for the log output")
+    print(f"Done! Check {filename} for the log output.")
     return filename
     
 def fetch_data():
